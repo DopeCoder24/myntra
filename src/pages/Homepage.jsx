@@ -1,7 +1,7 @@
 const Homepage = () => {
   return (
     <div>
-      <h1>HELLO WORLD</h1>
+      <h1>WELCOME TO Myntra</h1>
     </div>
   );
 };
