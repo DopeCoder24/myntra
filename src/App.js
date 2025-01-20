@@ -54,6 +54,28 @@ function App() {
             <Homepage />
           </Route>
         </Switch>
+        <div className="footer">
+          <h5>ONLINE SHOPPING</h5>
+          <div className="shop">
+            <NavLink to="/men">Men</NavLink>
+            <NavLink to="/women">women</NavLink>
+            <NavLink to="/kids">kids</NavLink>
+            <NavLink to="/living">Home & living</NavLink>
+            <NavLink to="/beauty">Beauty</NavLink>
+            <NavLink to="/gift">Gift Cards</NavLink>
+            <NavLink to="/false">Myntra Insider</NavLink>
+          </div>
+          <div className="policies">
+            <h5>CUSTOMER POLICIES</h5>
+          </div>
+          <div className="apps">
+            <h5>EXPERIENCE MYNTRA APP ON MOBILE</h5>
+          </div>
+          <div className="promises">
+            <div className="org"></div>
+            <div className="return"></div>
+          </div>
+        </div>
       </Router>
     </div>
   );
