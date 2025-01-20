@@ -1,4 +1,4 @@
-import Widthimgs from "../components/Widthimgs";
+import Images from "../components/Images";
 import { boximgdata, imgdata, secimgdata } from "../data/data";
 
 const Homepage = () => {
@@ -13,19 +13,19 @@ const Homepage = () => {
       <h4 className="text-banner-title">MEDAL WORTHY BRANDS TO BAG</h4>
       <div className="index-content">
         {imgdata.map((currentdata) => (
-          <Widthimgs img={currentdata.img} />
+          <Images img={currentdata.img} />
         ))}
       </div>
       <h4 className="text-banner-title">GRAND GLOBAL BRANDS</h4>
       <div className="index-content">
         {secimgdata.map((currentdata) => (
-          <Widthimgs img={currentdata.img} />
+          <Images img={currentdata.img} />
         ))}
       </div>
       <h4 className="text-banner-title">SHOP BY CATEGORY</h4>
       <div className="box-content">
         {boximgdata.map((currentdata) => (
-          <Widthimgs img={currentdata.img} />
+          <Images img={currentdata.img} />
         ))}
       </div>
     </div>
